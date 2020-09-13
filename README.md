@@ -57,7 +57,7 @@ g.	VS code
     * Download - https://www.postman.com/downloads/
 
 
-####  Steps to run the code:
+####  Steps to run the webserver code:
 1.  Clone this repository either by downloading it or by using git clone.
     ```
     git clone https://github.com/vikkey321/--Build-a-GPS-tracker-using-Neo-6m-Module--ESP8266--nodejs--mongodb-and-EJS- 
@@ -66,19 +66,39 @@ g.	VS code
     ```
     CD Extracted_folder_name 
     ```
-3. Install the libraries
+3.  Now, edit the map api in map.ejs in the views folder and paste your goole maps javascript api key.
+    ```
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+    ```
+4. Install the libraries
     ```
     npm install 
     ```
-4. Install nodemon
+5. Install nodemon
     ```
     npm install nodemon
     ```
-5. Start the server (Also make sure that your mongodb is running in the background)
+6. Start the server (Also make sure that your mongodb is running in the background)
     ```
     npm start
     ```
-6. Your webserver is running on 3000 port
+7. Your webserver is running on 3000 port
     ```
     localhost:3000
     ```
+    
+
+####  Steps to edit arduino code:
+1.  You can find the code in the folder "arduino_code".
+2.  Replace your SSID and Password with your wifi name and password
+    ```
+    #define STASSID "SSID"
+    #define STAPSK  "PWD"
+    ```
+3.  Replace the ngrok url in the below lines
+    ```
+    const char* host = "YOUR_ngrok_url
+    http.begin("YOUR_ngrok_url/addgpsdata");
+    ```
+4. Directly program your arduino board
+
