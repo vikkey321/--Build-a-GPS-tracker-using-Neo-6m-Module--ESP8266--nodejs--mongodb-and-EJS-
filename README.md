@@ -1,7 +1,7 @@
 # Build-a-GPS-tracker-using-Neo-6m-Module--ESP8266--nodejs--mongodb-and-EJS-
 Build a GPS tracker using Neo 6m Module, ESP8266, nodejs, mongodb and EJS 
 Hey Everyone, I hope you guys are safe and sound. In this tutorial we are going to “ Build a GPS tracker using Neo 6m Module, ESP8266, nodejs, mongodb and EJS ”.
-#### H4 In this tutorial I have covered following topics : 
+#### In this tutorial I have covered following topics : 
 1.	Introduction
 2.	Tech Stack Overview
 3.	Architecture
@@ -22,13 +22,13 @@ g.	VS code
 11.	Sending data from wemos to backend server
 12.	Do’s and Don’t
 
-#### H4 You will need below components for this tutorial:
+#### You will need below components for this tutorial:
 1.	Neo 6m GPS module
 2.	Wemos d1 mini
 3.	Micro USB cable
 4.	One to one connectors
 
-#### H4 Here are the installation links which are mentioned in the video:
+#### Here are the installation links which are mentioned in the video:
 1.  Arduino
     * Downlad - https://www.arduino.cc/en/main/software
 2.	ESP8266 Libraries
@@ -57,7 +57,7 @@ g.	VS code
     * Download - https://www.postman.com/downloads/
 
 
-#### H4 Steps to run the code:
+####  Steps to run the code:
 1.  Clone this repository either by downloading it or by using git clone.
     ```
     git clone https://github.com/vikkey321/--Build-a-GPS-tracker-using-Neo-6m-Module--ESP8266--nodejs--mongodb-and-EJS- 
